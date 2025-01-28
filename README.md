@@ -4,7 +4,7 @@ Transfer Learning Model
 
 * This project is only for educational purposes.
 * Even though some prototype of this model was already ready, some adjustments was made with AI support.
-* The project was tested with a German Shephard image and the result was positive.
+* The project was tested with a German Shephard image and the result was positive, even though the model doesn't save the result.
 
 
  The process involves taking an existing neural network which was previously trained to good performance on a larger dataset, and using it as the basis for a new model which leverages that previous network's accuracy for a new task. This method has become popular in recent years to improve the performance of a neural net trained on a small dataset; the intuition is that the new dataset may be too small to train to good performance by itself, but we know that most neural nets trained to learn image features often learn similar features anyway, especially at early layers where they are more generic (edge detectors, blobs, and so on).
